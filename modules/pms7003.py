@@ -1,5 +1,6 @@
 # Dev by Sonthaya Nongncuh, microBlock IDE
 from machine import UART
+from time import sleep_ms
 
 uart = UART(2, 9600)
 
@@ -15,6 +16,7 @@ def read(pin):
     if pin != __pin:
         uart.init(9600, bits=8, parity=None, stop=1, rx=pin, tx=-1)
         __pin = pin
+        sleep_ms(2000)
     
     packet = uart.read()
     if not packet:
