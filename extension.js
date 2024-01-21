@@ -1,7 +1,7 @@
 ({
-    name: "PMS7003", // Category Name
+    name: "PMS3003", // Category Name
     description: "Digital universal particle concentration sensor",
-    author: "IOXhop.com",
+    author: "ArmCool",
     category: "Sensors",
     version: "1.0.0",
     icon: "/static/icon.png", // Category icon
@@ -9,7 +9,7 @@
     blocks: [ // Blocks in Category
         {
             xml: `
-                <block type="pms7003_read">
+                <block type="pms3003_read">
                     <field name="pin">32</field>
                     <field name="type">1</field>
                 </block>
