@@ -55,7 +55,7 @@ def read(pin):
     
     __last_check = ticks_ms()
     if errCount >= 30:
-        print("PMS7003 not connect ?")
+        print("PMS3003 not connect ?")
         __old_value = [ -99, -99, -99 ]
     return __old_value
 
