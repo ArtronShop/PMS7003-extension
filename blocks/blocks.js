@@ -1,7 +1,7 @@
 Blockly.defineBlocksWithJsonArray([
 {
-  "type": "pms7003_read",
-  "message0": "PMS7003 tx pin %1 read %2",
+  "type": "pms3003_read",
+  "message0": "PMS3003 tx pin %1 read %2",
   "args0": [
     {
       "type": "field_dropdown",
