@@ -67,7 +67,7 @@ Blockly.defineBlocksWithJsonArray([
   "inputsInline": true,
   "output": null,
   "colour": "#E67E22",
-  "tooltip": "Read particle concentration from PMS7003",
+  "tooltip": "Read particle concentration from PMS3003",
   "helpUrl": "https://www.ioxhop.com/p/869"
 }
 ]);
